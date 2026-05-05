@@ -1,0 +1,31 @@
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+
+# Config & env
+python-dotenv==1.0.1
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# LangChain core + OpenAI integration
+langchain==0.3.9
+langchain-openai==0.2.12
+langchain-community==0.3.9
+langchain-core==0.3.21
+langchain-text-splitters==0.3.3
+
+# Vector database
+faiss-cpu==1.9.0
+
+# Document parsing
+pypdf==5.1.0
+
+# Tokenizer (required by LangChain OpenAI)
+tiktoken==0.8.0
+
+# Web search tool
+tavily-python==0.5.0
+
+# Async HTTP client (used by Tavily + httpx internally)
+httpx==0.28.1
